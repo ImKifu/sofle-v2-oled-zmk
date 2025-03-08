@@ -31,7 +31,7 @@
         LOGIN: LOGIN {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RET &kp N0 &kp N8 &kp N0 &kp N8 &kp RET>;
+            bindings = <&kp RET &kp N0 &kp N8 &kp N0 &kp N1 &kp RET>;
             label = "LOGIN";
             tap-ms = <100>;
         };
@@ -84,7 +84,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        win_layer {
             label = "default";
 
             // ------------------------------------------------------------------------------------------------------------
@@ -95,11 +95,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6               &kp N7     &kp N8     &kp N9    &kp N0    &LOGIN
-&kp ESC    &kp Q   &kp W   &kp F     &kp P      &kp B                                  &kp J                &kp L      &kp U      &kp Y     &kp SEMI  &kp DEL
-&kp TAB    &kp A   &kp R   &kp S     &kp T      &kp G                                  &kp M                &kp N      &kp E      &kp I     &kp O     &kp BACKSPACE
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp D      &kp V      &kp C_MUTE       &none      &kp K                &kp H      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                   &to 1   &kp LALT  &kp LCTRL  &lt 2 TAB  &mt LCTRL RET    &kp SPACE  &lt 3 LC(BACKSPACE)  &kp RCTRL  &kp RALT   &kp RGUI
+&kp ESC    &kp N1        &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6               &kp N7     &kp N8     &kp N9    &kp N0           &LOGIN
+&kp ESC    &kp Q         &kp W   &kp F     &kp P      &kp B                                  &kp J                &kp L      &kp U      &kp Y     &kp SEMI         &kp DEL
+&kp TAB    &kp A         &kp R   &kp S     &kp T      &kp G                                  &kp M                &kp N      &kp E      &kp I     &kp O            &kp BACKSPACE
+&kp LSHFT  &mt LSHIFT Z  &kp X   &kp C     &kp D      &kp V      &kp C_MUTE       &none      &kp K                &kp H      &kp COMMA  &kp DOT   &mt RSHIFT FSLH  &kp RSHFT
+                         &to 1   &kp LALT  &kp LCTRL  &lt 2 TAB  &mt LCTRL RET    &kp SPACE  &lt 3 LC(BACKSPACE)  &kp RCTRL  &kp RALT   &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -108,8 +108,8 @@
         gaming_layer {
             label = "game";
             bindings = <
-&kp ESC  &kp N5     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                           &kp N6  &kp N7     &kp N8     &kp N9    &kp N0    &kp DELETE
-&kp B    &kp J      &kp Q         &kp W         &kp E         &kp R                                  &kp Y   &kp U      &kp I      &kp O     &kp P     &kp BSPC
+&kp ESC  &kp N5     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                           &kp N6  &kp N7     &kp N8     &kp N9    &kp N0    &LOGIN
+&kp B    &kp J      &kp Q         &kp W         &kp E         &kp R                                  &kp Y   &kp U      &kp I      &kp O     &kp P     &kp PRINTSCREEN
 &kp L    &kp T      &kp A         &kp S         &kp D         &kp F                                  &kp H   &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp M    &kp LCTRL  &kp Z         &kp X         &kp C         &kp V         &kp C_MUTE    &none      &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
                     &to 0         &kp LSHFT     &kp LEFT_WIN  &kp TAB       &kp SPACE     &kp SPACE  &mo 3   &kp RCTRL  &kp RALT   &kp RGUI
