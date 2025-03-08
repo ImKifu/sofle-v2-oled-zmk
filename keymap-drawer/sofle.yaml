@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   default:
-  - '`'
+  - ESC
   - '1'
   - '2'
   - '3'
