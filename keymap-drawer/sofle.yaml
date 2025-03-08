@@ -62,7 +62,7 @@ layers:
   - RALT
   - RGUI
   game:
-  - '`'
+  - ESC
   - '5'
   - '1'
   - '2'
