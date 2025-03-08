@@ -74,36 +74,36 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - ESC
+  - B
+  - J
   - Q
   - W
   - E
   - R
-  - T
   - Y
   - U
   - I
   - O
   - P
   - BSPC
-  - TAB
+  - L
+  - T
   - A
   - S
   - D
   - F
-  - G
   - H
   - J
   - K
   - L
   - ;
   - ''''
-  - LSHFT
+  - M
+  - LCTRL
   - Z
   - X
   - C
   - V
-  - B
   - MUTE
   - ''
   - N
@@ -113,10 +113,10 @@ layers:
   - /
   - RSHFT
   - {t: default, h: toggle}
-  - LALT
-  - LCTRL
-  - lower
-  - RET
+  - LSHFT
+  - LEFT WIN
+  - TAB
+  - SPACE
   - SPACE
   - raise
   - RCTRL
