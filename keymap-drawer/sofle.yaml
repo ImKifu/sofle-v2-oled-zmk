@@ -54,10 +54,10 @@ layers:
   - {t: game, h: toggle}
   - LALT
   - LCTRL
-  - lower
-  - RET
+  - {t: TAB, h: lower}
+  - {t: RET, h: LCTRL}
   - SPACE
-  - raise
+  - {t: Ctl+BACKSPACE, h: raise}
   - RCTRL
   - RALT
   - RGUI
@@ -305,3 +305,20 @@ layers:
   - ''
   - ''
   - ''
+combos:
+- p: [25, 26, 27]
+  k: LEFT ALT
+- p: [32, 33, 34]
+  k: RIGHT ALT
+- p: [14, 15, 16]
+  k: LEFT WIN
+- p: [19, 20, 21]
+  k: RIGHT WIN
+- p: [40, 39, 38]
+  k: LCTRL
+- p: [45, 46, 47]
+  k: RCTRL
+- p: [28, 27, 26]
+  k: DELETE
+- p: [31, 32, 33]
+  k: BACKSPACE
