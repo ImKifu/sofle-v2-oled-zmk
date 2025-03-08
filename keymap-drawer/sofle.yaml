@@ -38,7 +38,7 @@ layers:
   - O
   - BACKSPACE
   - LSHFT
-  - Z
+  - {t: Z, h: LSHIFT}
   - X
   - C
   - D
@@ -49,7 +49,7 @@ layers:
   - H
   - ','
   - .
-  - /
+  - {t: /, h: RSHIFT}
   - RSHFT
   - {t: game, h: toggle}
   - LALT
@@ -73,7 +73,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - DELETE
+  - '&LOGIN'
   - B
   - J
   - Q
@@ -85,7 +85,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - PRINTSCREEN
   - L
   - T
   - A
