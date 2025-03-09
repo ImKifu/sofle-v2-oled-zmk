@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default:
+  win:
   - ESC
   - '1'
   - '2'
@@ -23,7 +23,7 @@ layers:
   - L
   - U
   - Y
-  - ;
+  - '&td_semi'
   - DEL
   - TAB
   - A
@@ -112,7 +112,7 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: default, h: toggle}
+  - {t: win, h: toggle}
   - LSHFT
   - LEFT WIN
   - TAB
