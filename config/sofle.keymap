@@ -83,11 +83,53 @@
     };
 
     behaviors {
-        td_semi: td_semi {
+        td0: td0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_SEMI";
+            label = "TD0";
             #binding-cells = <0>;
             bindings = <&kp SEMI>, <&kp COLON>;
+        };
+
+        td1: td1 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD1";
+            #binding-cells = <0>;
+            bindings = <&kp Q>, <&kp ESCAPE>;
+        };
+
+        td2: td2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD2";
+            #binding-cells = <0>;
+            bindings = <&kp LG(GRAVE)>, <&kp TILDE>;
+        };
+
+        td3: td3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD3";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LPAR)>, <&kp LT>;
+        };
+
+        td4: td4 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD4";
+            #binding-cells = <0>;
+            bindings = <&kp RPAR>, <&kp GT>;
+        };
+
+        td5: td5 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD5";
+            #binding-cells = <0>;
+            bindings = <&kp HASH>, <&kp DLLR>;
+        };
+
+        td6: td6 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD6";
+            #binding-cells = <0>;
+            bindings = <&kp PRCNT>, <&kp LG(CARET)>;
         };
     };
 
@@ -106,7 +148,7 @@
 
             bindings = <
 &kp ESC    &kp N1        &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6               &kp N7     &kp N8     &kp N9    &kp N0           &LOGIN
-&kp ESC    &kp Q         &kp W   &kp F     &kp P      &kp B                                  &kp J                &kp L      &kp U      &kp Y     &td_semi         &kp DEL
+&kp ESC    &kp Q         &kp W   &kp F     &kp P      &kp B                                  &kp J                &kp L      &kp U      &kp Y     &td0             &kp DEL
 &kp TAB    &kp A         &kp R   &kp S     &kp T      &kp G                                  &kp M                &kp N      &kp E      &kp I     &kp O            &kp BACKSPACE
 &kp LSHFT  &mt LSHIFT Z  &kp X   &kp C     &kp D      &kp V      &kp C_MUTE       &none      &kp K                &kp H      &kp COMMA  &kp DOT   &mt RSHIFT FSLH  &kp RSHFT
                          &to 1   &kp LALT  &kp LCTRL  &lt 2 TAB  &mt LCTRL RET    &kp SPACE  &lt 3 LC(BACKSPACE)  &kp RCTRL  &kp RALT   &kp RGUI
