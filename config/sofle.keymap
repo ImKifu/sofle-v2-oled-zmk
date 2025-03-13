@@ -32,7 +32,6 @@
             #binding-cells = <0>;
             bindings = <&kp RET &kp N0 &kp N8 &kp N0 &kp N1 &kp RET>;
             label = "LOGIN";
-            tap-ms = <200>;
             wait-ms = <200>;
         };
     };
