@@ -322,3 +322,5 @@ combos:
   k: DELETE
 - p: [31, 32, 33]
   k: BACKSPACE
+- p: [37, 38, 39]
+  k: '&caps_word'
