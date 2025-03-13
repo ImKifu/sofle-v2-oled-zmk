@@ -80,6 +80,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32 33>;
         };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <37 38 39>;
+        };
     };
 
     behaviors {
@@ -130,6 +135,13 @@
             label = "TD6";
             #binding-cells = <0>;
             bindings = <&kp PRCNT>, <&kp LG(CARET)>;
+        };
+
+        caps_word: caps_word {
+            compatible = "zmk,behavior-caps-word";
+            label = "CAPS_WORD";
+            #binding-cells = <0>;
+            continue-list = <UNDERSCORE MINUS BACKSPACE DELETE HOME END LEFT RIGHT>;
         };
     };
 
