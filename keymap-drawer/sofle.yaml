@@ -118,7 +118,7 @@ layers:
   - {t: TAB, h: lower}
   - {t: RET, h: LGUI}
   - SPACE
-  - {t: Gui+BACKSPACE, h: raise}
+  - {t: Alt+BACKSPACE, h: raise}
   - RCTRL
   - RALT
   - {t: win, h: toggle}
@@ -221,7 +221,7 @@ layers:
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHIFT
+  - Gui+Ctl+LSHIFT
   - '['
   - ']'
   - '|'
@@ -264,9 +264,9 @@ layers:
   - F11
   - F12
   - PAGE UP
-  - Ctl+LEFT
+  - Alt+LEFT
   - UP
-  - Ctl+RIGHT
+  - Alt+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
