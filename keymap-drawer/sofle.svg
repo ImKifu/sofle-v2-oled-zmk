@@ -375,7 +375,9 @@ path.combo {
 </g>
 <g transform="translate(756, 259)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RGUI</text>
+<a href="#mac">
+<text x="0" y="0" class="key tap layer-activator">mac</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
 <path d="M140,154 l-39,14" class="combo"/>
@@ -692,7 +694,9 @@ path.combo {
 </g>
 <g transform="translate(756, 259)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RGUI</text>
+<a href="#win">
+<text x="0" y="0" class="key tap layer-activator">win</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g class="combo combopos-0">
 <path d="M756,154 l-38,-9" class="combo"/>

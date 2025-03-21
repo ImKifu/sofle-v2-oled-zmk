@@ -60,7 +60,7 @@ layers:
   - {t: Ctl+BACKSPACE, h: raise}
   - RCTRL
   - RALT
-  - RGUI
+  - {t: mac, h: toggle}
   mac:
   - ESC
   - '1'
@@ -121,7 +121,7 @@ layers:
   - {t: Ctl+BACKSPACE, h: raise}
   - RCTRL
   - RALT
-  - RGUI
+  - {t: win, h: toggle}
   game:
   - ESC
   - '5'
