@@ -181,7 +181,7 @@
 &kp ESC    &kp Q         &kp W   &kp F     &kp P      &kp B                                 &kp J                &kp L      &kp U      &kp Y    &td0             &kp DEL
 &kp TAB    &kp A         &kp R   &kp S     &kp T      &kp G                                 &kp M                &kp N      &kp E      &kp I    &kp O            &kp BACKSPACE
 &kp LSHFT  &mt LSHIFT Z  &kp X   &kp C     &kp D      &kp V      &kp C_MUTE      &none      &kp K                &kp H      &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &kp RSHFT
-                         &to 2   &kp LALT  &kp LCTRL  &lt 3 TAB  &mt LGUI RET    &kp SPACE  &lt 4 LG(BACKSPACE)  &kp RCTRL  &kp RALT   &to 0
+                         &to 2   &kp LALT  &kp LCTRL  &lt 3 TAB  &mt LGUI RET    &kp SPACE  &lt 4 LA(BACKSPACE)  &kp RCTRL  &kp RALT   &to 0
             >;
 
             sensor-bindings =
@@ -216,11 +216,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &trans      &trans    &trans    &trans    &trans                          &trans       &trans  &trans  &trans  &trans    &trans
-&trans  &td5        &td3      &td4      &kp DQT   &kp PLUS                        &kp STAR     &kp N7  &kp N8  &kp N9  &kp N0    &trans
-&trans  &kp AT      &kp LBRC  &kp RBRC  &kp SQT   &kp EQUAL                       &kp EXCL     &kp N4  &kp N5  &kp N6  &kp RPAR  &trans
-&trans  &kp LSHIFT  &kp LBKT  &kp RBKT  &kp PIPE  &kp AMPS   &trans    &trans     &kp N0       &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
-                    &trans    &trans    &trans    &trans     &trans    &kp UNDER  &lt 4 MINUS  &trans  &trans  &trans
+&trans  &trans              &trans    &trans    &trans    &trans                          &trans       &trans  &trans  &trans  &trans    &trans
+&trans  &td5                &td3      &td4      &kp DQT   &kp PLUS                        &kp STAR     &kp N7  &kp N8  &kp N9  &kp N0    &trans
+&trans  &kp AT              &kp LBRC  &kp RBRC  &kp SQT   &kp EQUAL                       &kp EXCL     &kp N4  &kp N5  &kp N6  &kp RPAR  &trans
+&trans  &kp LG(LC(LSHIFT))  &kp LBKT  &kp RBKT  &kp PIPE  &kp AMPS   &trans    &trans     &kp N0       &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
+                            &trans    &trans    &trans    &trans     &trans    &kp UNDER  &lt 4 MINUS  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -238,7 +238,7 @@
 
             bindings = <
 &trans  &trans      &trans  &trans   &trans   &trans                     &trans         &trans        &trans    &trans         &trans  &trans
-&trans  &trans      &kp F9  &kp F10  &kp F11  &kp F12                    &kp PAGE_UP    &kp LC(LEFT)  &kp UP    &kp LC(RIGHT)  &trans  &trans
+&trans  &trans      &kp F9  &kp F10  &kp F11  &kp F12                    &kp PAGE_UP    &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &trans  &trans
 &trans  &trans      &kp F5  &kp F6   &kp F7   &kp F8                     &kp PAGE_DOWN  &kp LEFT      &kp DOWN  &kp RIGHT      &trans  &trans
 &trans  &kp LSHIFT  &kp F1  &kp F2   &kp F3   &kp F4   &trans    &trans  &kp HOME       &kp END       &trans    &trans         &trans  &trans
                     &trans  &trans   &trans   &trans   &trans    &trans  &trans         &trans        &trans    &trans
