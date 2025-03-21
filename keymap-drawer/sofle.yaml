@@ -369,7 +369,7 @@ layers:
 combos:
 - p: [25, 26, 27]
   k: LEFT ALT
-  l: [win]
+  l: [win, game, lower, raise]
 - p: [32, 33, 34]
   k: RIGHT ALT
 - p: [14, 15, 16]
