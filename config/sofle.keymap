@@ -42,7 +42,7 @@
         LALT_COMBO {
             bindings = <&kp LEFT_ALT>;
             key-positions = <25 26 27>;
-            layers = <0>;
+            layers = <0 2 3 4>;
         };
 
         RALT_COMBO {
