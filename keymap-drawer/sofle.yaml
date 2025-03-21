@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: sofle/rev1}
+layout: {zmk_keyboard: sofle}
 layers:
   win:
   - ESC
@@ -56,6 +56,67 @@ layers:
   - LCTRL
   - {t: TAB, h: lower}
   - {t: RET, h: LCTRL}
+  - SPACE
+  - {t: Ctl+BACKSPACE, h: raise}
+  - RCTRL
+  - RALT
+  - RGUI
+  mac:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '&LOGIN'
+  - ESC
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - '&td0'
+  - DEL
+  - TAB
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - BACKSPACE
+  - LSHFT
+  - {t: Z, h: LSHIFT}
+  - X
+  - C
+  - D
+  - V
+  - MUTE
+  - ''
+  - K
+  - H
+  - ','
+  - .
+  - {t: /, h: RSHIFT}
+  - RSHFT
+  - {t: game, h: toggle}
+  - LALT
+  - LCTRL
+  - {t: TAB, h: lower}
+  - {t: RET, h: LGUI}
   - SPACE
   - {t: Ctl+BACKSPACE, h: raise}
   - RCTRL
@@ -308,6 +369,7 @@ layers:
 combos:
 - p: [25, 26, 27]
   k: LEFT ALT
+  l: [win]
 - p: [32, 33, 34]
   k: RIGHT ALT
 - p: [14, 15, 16]
@@ -324,3 +386,6 @@ combos:
   k: BACKSPACE
 - p: [37, 38, 39]
   k: '&caps_word'
+- p: [25, 26, 27]
+  k: LGUI
+  l: [mac]
