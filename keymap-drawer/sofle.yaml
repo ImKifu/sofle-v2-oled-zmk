@@ -118,7 +118,7 @@ layers:
   - {t: TAB, h: lower}
   - {t: RET, h: LGUI}
   - SPACE
-  - {t: Ctl+BACKSPACE, h: raise}
+  - {t: Gui+BACKSPACE, h: raise}
   - RCTRL
   - RALT
   - {t: win, h: toggle}
