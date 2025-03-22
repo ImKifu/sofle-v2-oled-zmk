@@ -318,7 +318,7 @@ layers:
   - ''
   - ''
   - EP TOG
-  - {t: ▽, type: trans}
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -331,12 +331,12 @@ layers:
   - ''
   - ''
   - ''
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
   - K
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - NEXT
   - PP
   - PREV
@@ -346,11 +346,11 @@ layers:
   - ''
   - ''
   - ''
+  - CAPSLOCK
+  - '&sys_reset'
   - ''
   - ''
   - ''
-  - ''
-  - CAPS
   - BRI DEC
   - ''
   - BRI UP
