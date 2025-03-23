@@ -1,20 +1,20 @@
 layout: {zmk_keyboard: sofle}
 layers:
   win:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '&LOGIN'
-  - ESC
-  - Q
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&td1'
   - W
   - F
   - P
@@ -24,8 +24,8 @@ layers:
   - U
   - Y
   - '&td0'
-  - DEL
-  - TAB
+  - ''
+  - ''
   - A
   - R
   - S
@@ -36,8 +36,8 @@ layers:
   - E
   - I
   - O
-  - BACKSPACE
-  - LSHFT
+  - ''
+  - ''
   - {t: Z, h: LSHIFT}
   - X
   - C
@@ -50,32 +50,32 @@ layers:
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - RSHFT
+  - ''
   - {t: game, h: toggle}
-  - LALT
-  - LCTRL
+  - {t: mac, h: toggle}
+  - '&LOGIN'
   - {t: TAB, h: lower}
   - {t: RET, h: LCTRL}
   - SPACE
   - {t: Ctl+BACKSPACE, h: raise}
-  - RCTRL
-  - RALT
-  - {t: mac, h: toggle}
-  mac:
-  - ESC
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
   - '&LOGIN'
-  - ESC
-  - Q
+  - ''
+  - ''
+  mac:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&td1'
   - W
   - F
   - P
@@ -85,8 +85,8 @@ layers:
   - U
   - Y
   - '&td0'
-  - DEL
-  - TAB
+  - ''
+  - ''
   - A
   - R
   - S
@@ -97,8 +97,8 @@ layers:
   - E
   - I
   - O
-  - BACKSPACE
-  - LSHFT
+  - ''
+  - ''
   - {t: Z, h: LSHIFT}
   - X
   - C
@@ -111,17 +111,17 @@ layers:
   - ','
   - .
   - {t: /, h: RSHIFT}
-  - RSHFT
+  - ''
   - {t: game, h: toggle}
-  - LALT
-  - LCTRL
+  - {t: win, h: toggle}
+  - '&LOGIN'
   - {t: TAB, h: lower}
   - {t: RET, h: LGUI}
   - SPACE
   - {t: Alt+BACKSPACE, h: raise}
-  - RCTRL
-  - RALT
-  - {t: win, h: toggle}
+  - '&LOGIN'
+  - ''
+  - ''
   game:
   - ESC
   - '5'
@@ -129,12 +129,12 @@ layers:
   - '2'
   - '3'
   - '4'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '&LOGIN'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - B
   - J
   - Q
@@ -146,7 +146,7 @@ layers:
   - I
   - O
   - P
-  - PRINTSCREEN
+  - ''
   - L
   - T
   - A
@@ -157,8 +157,8 @@ layers:
   - J
   - K
   - L
-  - ;
-  - ''''
+  - G
+  - ''
   - M
   - LCTRL
   - Z
@@ -169,20 +169,20 @@ layers:
   - ''
   - N
   - M
-  - ','
-  - .
-  - /
-  - RSHFT
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: win, h: toggle}
-  - LSHFT
-  - LEFT WIN
+  - {t: mac, h: toggle}
+  - Gui+D
   - TAB
   - SPACE
   - SPACE
   - raise
-  - RCTRL
-  - RALT
-  - RGUI
+  - '&LOGIN'
+  - ''
+  - PRINTSCREEN
   lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -206,7 +206,7 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
+  - '&td6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '@'
@@ -218,7 +218,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - )
+  - '&td2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Ctl+LSHIFT
