@@ -164,11 +164,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC    &kp N1        &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6               &kp N7     &kp N8     &kp N9   &kp N0           &LOGIN
-&kp ESC    &kp Q         &kp W   &kp F     &kp P      &kp B                                  &kp J                &kp L      &kp U      &kp Y    &td0             &kp DEL
-&kp TAB    &kp A         &kp R   &kp S     &kp T      &kp G                                  &kp M                &kp N      &kp E      &kp I    &kp O            &kp BACKSPACE
-&kp LSHFT  &mt LSHIFT Z  &kp X   &kp C     &kp D      &kp V      &kp C_MUTE       &none      &kp K                &kp H      &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &kp RSHFT
-                         &to 2   &kp LALT  &kp LCTRL  &lt 3 TAB  &mt LCTRL RET    &kp SPACE  &lt 4 LC(BACKSPACE)  &kp RCTRL  &kp RALT   &to 1
+&none  &none         &none  &none  &none   &none                                  &none                &none   &none      &none    &none            &none
+&none  &td1          &kp W  &kp F  &kp P   &kp B                                  &kp J                &kp L   &kp U      &kp Y    &td0             &none
+&none  &kp A         &kp R  &kp S  &kp T   &kp G                                  &kp M                &kp N   &kp E      &kp I    &kp O            &none
+&none  &mt LSHIFT Z  &kp X  &kp C  &kp D   &kp V      &kp C_MUTE       &none      &kp K                &kp H   &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &none
+                     &to 2  &to 1  &LOGIN  &lt 3 TAB  &mt LCTRL RET    &kp SPACE  &lt 4 LC(BACKSPACE)  &LOGIN  &none      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -177,11 +177,11 @@
         mac_layer {
             label = "mac";
             bindings = <
-&kp ESC    &kp N1        &kp N2  &kp N3    &kp N4     &kp N5                                &kp N6               &kp N7     &kp N8     &kp N9   &kp N0           &LOGIN
-&kp ESC    &kp Q         &kp W   &kp F     &kp P      &kp B                                 &kp J                &kp L      &kp U      &kp Y    &td0             &kp DEL
-&kp TAB    &kp A         &kp R   &kp S     &kp T      &kp G                                 &kp M                &kp N      &kp E      &kp I    &kp O            &kp BACKSPACE
-&kp LSHFT  &mt LSHIFT Z  &kp X   &kp C     &kp D      &kp V      &kp C_MUTE      &none      &kp K                &kp H      &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &kp RSHFT
-                         &to 2   &kp LALT  &kp LCTRL  &lt 3 TAB  &mt LGUI RET    &kp SPACE  &lt 4 LA(BACKSPACE)  &kp RCTRL  &kp RALT   &to 0
+&none  &none         &none  &none  &none   &none                                 &none                &none   &none      &none    &none            &none
+&none  &td1          &kp W  &kp F  &kp P   &kp B                                 &kp J                &kp L   &kp U      &kp Y    &td0             &none
+&none  &kp A         &kp R  &kp S  &kp T   &kp G                                 &kp M                &kp N   &kp E      &kp I    &kp O            &none
+&none  &mt LSHIFT Z  &kp X  &kp C  &kp D   &kp V      &kp C_MUTE      &none      &kp K                &kp H   &kp COMMA  &kp DOT  &mt RSHIFT FSLH  &none
+                     &to 2  &to 0  &LOGIN  &lt 3 TAB  &mt LGUI RET    &kp SPACE  &lt 4 LA(BACKSPACE)  &LOGIN  &none      &none
             >;
 
             sensor-bindings =
@@ -192,11 +192,11 @@
         gaming_layer {
             label = "game";
             bindings = <
-&kp ESC  &kp N5     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                           &kp N6  &kp N7     &kp N8     &kp N9    &kp N0    &LOGIN
-&kp B    &kp J      &kp Q         &kp W         &kp E         &kp R                                  &kp Y   &kp U      &kp I      &kp O     &kp P     &kp PRINTSCREEN
-&kp L    &kp T      &kp A         &kp S         &kp D         &kp F                                  &kp H   &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
-&kp M    &kp LCTRL  &kp Z         &kp X         &kp C         &kp V         &kp C_MUTE    &none      &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                    &to 0         &kp LSHFT     &kp LEFT_WIN  &kp TAB       &kp SPACE     &kp SPACE  &mo 4   &kp RCTRL  &kp RALT   &kp RGUI
+&kp ESC  &kp N5     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4                           &none  &none   &none  &none            &none  &none
+&kp B    &kp J      &kp Q         &kp W         &kp E         &kp R                                  &kp Y  &kp U   &kp I  &kp O            &kp P  &none
+&kp L    &kp T      &kp A         &kp S         &kp D         &kp F                                  &kp H  &kp J   &kp K  &kp L            &kp G  &none
+&kp M    &kp LCTRL  &kp Z         &kp X         &kp C         &kp V         &kp C_MUTE    &none      &kp N  &kp M   &none  &none            &none  &none
+                    &to 0         &to 1         &kp LG(D)     &kp TAB       &kp SPACE     &kp SPACE  &mo 4  &LOGIN  &none  &kp PRINTSCREEN
             >;
 
             sensor-bindings =
@@ -217,8 +217,8 @@
 
             bindings = <
 &trans  &trans              &trans    &trans    &trans    &trans                          &trans       &trans  &trans  &trans  &trans    &trans
-&trans  &td5                &td3      &td4      &kp DQT   &kp PLUS                        &kp STAR     &kp N7  &kp N8  &kp N9  &kp N0    &trans
-&trans  &kp AT              &kp LBRC  &kp RBRC  &kp SQT   &kp EQUAL                       &kp EXCL     &kp N4  &kp N5  &kp N6  &kp RPAR  &trans
+&trans  &td5                &td3      &td4      &kp DQT   &kp PLUS                        &kp STAR     &kp N7  &kp N8  &kp N9  &td6      &trans
+&trans  &kp AT              &kp LBRC  &kp RBRC  &kp SQT   &kp EQUAL                       &kp EXCL     &kp N4  &kp N5  &kp N6  &td2      &trans
 &trans  &kp LG(LC(LSHIFT))  &kp LBKT  &kp RBKT  &kp PIPE  &kp AMPS   &trans    &trans     &kp N0       &kp N1  &kp N2  &kp N3  &kp BSLH  &trans
                             &trans    &trans    &trans    &trans     &trans    &kp UNDER  &lt 4 MINUS  &trans  &trans  &trans
             >;
