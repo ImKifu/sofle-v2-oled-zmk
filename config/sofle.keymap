@@ -118,7 +118,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD3";
             #binding-cells = <0>;
-            bindings = <&kp LG(LPAR)>, <&kp LT>;
+            bindings = <&kp LPAR>, <&kp LT>;
         };
 
         td4: td4 {
