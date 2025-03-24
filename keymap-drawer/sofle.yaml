@@ -53,14 +53,14 @@ layers:
   - ''
   - {t: game, h: toggle}
   - {t: mac, h: toggle}
-  - '&LOGIN'
+  - ''
   - {t: TAB, h: lower}
   - {t: RET, h: LCTRL}
   - SPACE
   - {t: Ctl+BACKSPACE, h: raise}
+  - ''
+  - ''
   - '&LOGIN'
-  - ''
-  - ''
   mac:
   - ''
   - ''
@@ -114,14 +114,14 @@ layers:
   - ''
   - {t: game, h: toggle}
   - {t: win, h: toggle}
-  - '&LOGIN'
+  - ''
   - {t: TAB, h: lower}
   - {t: RET, h: LGUI}
   - SPACE
   - {t: Alt+BACKSPACE, h: raise}
+  - ''
+  - ''
   - '&LOGIN'
-  - ''
-  - ''
   game:
   - ESC
   - '5'
@@ -180,9 +180,9 @@ layers:
   - SPACE
   - SPACE
   - raise
-  - '&LOGIN'
   - ''
   - PRINTSCREEN
+  - '&LOGIN'
   lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,10 +218,10 @@ layers:
   - '4'
   - '5'
   - '6'
-  - '&td2'
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Ctl+LSHIFT
+  - {t: '~', h: Gui+Ctl+LSHIFT}
   - '['
   - ']'
   - '|'
@@ -258,11 +258,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
   - F12
+  - ''
   - PAGE UP
   - Alt+LEFT
   - UP
@@ -270,11 +270,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F5
   - F6
   - F7
   - F8
+  - ''
   - PAGE DOWN
   - LEFT
   - DOWN
@@ -282,11 +282,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHIFT
-  - F1
+  - {t: F1, h: LSHIFT}
   - F2
   - F3
   - F4
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
