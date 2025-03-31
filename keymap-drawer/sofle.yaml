@@ -279,7 +279,7 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
+  - Gui+`
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: F1, h: LSHIFT}
@@ -293,7 +293,7 @@ layers:
   - END
   - {t: ▽, type: trans}
   - Ctl+UP ARROW
-  - Ctl+DOWN
+  - Ctl+`
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
